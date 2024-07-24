@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lin_lay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <!--<ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="-50dp"
+        android:id="@+id/splash_img"
+        android:src="@drawable/splash"
+        android:layout_marginBottom="10dp"/>-->
+
+    <ImageView
+        android:id="@+id/splash_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rotation="0"
+        android:scaleType="fitXY" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="144dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Prasad Botre" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="95dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Audumber Telgar" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="195dp"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Yash Dere" />
+
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/museoTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="410dp"
+        app:srcCompat="@drawable/splash_logo" />
+
+</RelativeLayout>
